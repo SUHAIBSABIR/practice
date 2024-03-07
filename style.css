@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#card {
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+
+.im {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 14px;
+}
+
+img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(75, 75, 145);
+}
+
+#card h4 p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    background-color: rgb(87, 109, 239);
+    border-radius: 50px;
+    width: 150px;
+    height: 57px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
